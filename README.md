@@ -2,6 +2,10 @@
 
 An intelligent, AI-powered CSV importer built for the GrowEasy Software Developer Assignment. This application allows users to upload CRM datasets (like Facebook Leads, Google Ads, or custom Excel exports) with varying column structures. It uses an LLM to intelligently extract, standardize, and map those fields into a strict CRM schema.
 
+### 🌐 Live Demo
+- **Frontend App**: [https://groweasy-ai-omega.vercel.app](https://groweasy-ai-omega.vercel.app)
+- **Backend API**: [https://groweasy-backend-cfq6.onrender.com](https://groweasy-backend-cfq6.onrender.com)
+
 ---
 
 ## ✨ Features
