@@ -84,7 +84,8 @@ export default function Home() {
     const formData = new FormData();
     formData.append("file", file);
     try {
-      const response = await fetch("http://localhost:3001/api/upload", {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
+      const response = await fetch(`${apiUrl}/api/upload`, {
         method: "POST",
         body: formData,
       });
